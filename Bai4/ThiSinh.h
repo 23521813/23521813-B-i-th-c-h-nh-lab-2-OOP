@@ -6,12 +6,12 @@ class ThiSinh {
 private:
     string Ten;      // Tên thí sinh
     string MSSV;     // Mã số sinh viên
-    int NgaySinh;       // Ngày sinh
-    int ThangSinh;      // Tháng sinh
-    int NamSinh;        // Năm sinh
-    float DiemToan;     // Điểm môn Toán
-    float DiemVan;      // Điểm môn Văn
-    float DiemAnh;      // Điểm môn Anh
+    int iNgay;       // Ngày sinh
+    int iThang;      // Tháng sinh
+    int iNam;        // Năm sinh
+    float fToan;     // Điểm môn Toán
+    float fVan;      // Điểm môn Văn
+    float fAnh;      // Điểm môn Anh
 
 public:
     void Nhap();     // Phương thức nhập thông tin
