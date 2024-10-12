@@ -18,7 +18,7 @@ void DaGiac::Nhap() {
     Dinh.resize(n);
 
     for (int i = 0; i < n; i++) {
-        int x, y;
+        float x, y;
         cout << "Nhap toa do dinh thu " << i + 1 << ": ";
         cin >> x >> y;
         Dinh[i].SetHoanhDo(x);
