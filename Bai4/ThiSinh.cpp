@@ -8,27 +8,27 @@ void ThiSinh::Nhap() {
     cout << "Nhap MSSV: ";
     cin >> MSSV;
     cout << "Nhap ngay sinh (dd mm yyyy): ";
-    cin >> NgaySinh >> ThangSinh >> NamSinh;
+    cin >> iNgay >> iThang >> iNam;
     cout << "Nhap diem mon Toan: ";
-    cin >> DiemToan;
+    cin >> fToan;
     cout << "Nhap diem mon Van: ";
-    cin >> DiemVan;
+    cin >> fVan;
     cout << "Nhap diem mon Anh: ";
-    cin >> DiemAnh;
+    cin >> fAnh;
 }
 
 // Xuất thông tin thí sinh
 void ThiSinh::Xuat() {
     cout << "Ten: " << Ten << endl;
     cout << "MSSV: " << MSSV << endl;
-    cout << "Ngay sinh: " << NgaySinh << "/" << ThangSinh << "/" << NamSinh << endl;
-    cout << "Diem Toan: " << DiemToan << endl;
-    cout << "Diem Van: " << DiemVan << endl;
-    cout << "Diem Anh: " << DiemAnh << endl;
+    cout << "Ngay sinh: " << iNgay << "/" << iThang << "/" << iNam << endl;
+    cout << "Diem Toan: " << fToan << endl;
+    cout << "Diem Van: " << fVan << endl;
+    cout << "Diem Anh: " << fAnh << endl;
     cout << "Tong diem: " << Tong() << endl;
 }
 
 // Phương thức tính tổng điểm ba môn
 float ThiSinh::Tong() {
-    return DiemToan + DiemVan + DiemAnh;
+    return fToan + fVan + fAnh;
 }
